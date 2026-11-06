@@ -11,8 +11,9 @@ config_version=5
 [application]
 
 config/name="Game1"
-config/features=PackedStringArray("4.7", "Forward Plus")
-config/icon="res://icon.svg"
+run/main_scene="uid://b8317m2w0q3i8"
+config/features=PackedStringArray("4.7", "C#", "Forward Plus")
+config/icon="uid://8xmditvhpa0k"
 
 [display]
 
