@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://b56v0f8fpmhch"
-path="res://.godot/imported/ghost_fall_sheet.png-b771f4564ab49b8c383945654a4ba067.ctex"
+uid="uid://caubjnmhb5j0g"
+path="res://.godot/imported/horned_idle.png-31462cf70393a38e00261b16ee07463b.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://game/player/sprites/ghost_fall_sheet.png"
-dest_files=["res://.godot/imported/ghost_fall_sheet.png-b771f4564ab49b8c383945654a4ba067.ctex"]
+source_file="res://game/player/sprites/horned_idle.png"
+dest_files=["res://.godot/imported/horned_idle.png-31462cf70393a38e00261b16ee07463b.ctex"]
 
 [params]
 

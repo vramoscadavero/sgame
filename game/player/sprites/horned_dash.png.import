@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bqkouv4q53vwc"
-path="res://.godot/imported/ghost_rise_sheet.png-4ef4ee1eb27512e5b19600d362c0b246.ctex"
+uid="uid://spbqtnd4x1l6"
+path="res://.godot/imported/horned_dash.png-b3b8747ac04bbc67023ac4dee95880bc.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://game/player/sprites/ghost_rise_sheet.png"
-dest_files=["res://.godot/imported/ghost_rise_sheet.png-4ef4ee1eb27512e5b19600d362c0b246.ctex"]
+source_file="res://game/player/sprites/horned_dash.png"
+dest_files=["res://.godot/imported/horned_dash.png-b3b8747ac04bbc67023ac4dee95880bc.ctex"]
 
 [params]
 

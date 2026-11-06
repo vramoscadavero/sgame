@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://d3whxi4hn5hu3"
-path="res://.godot/imported/ghost_land_sheet.png-d8b1369d010678afc93da60eb35a91d7.ctex"
+uid="uid://dqn0tpaecgdc"
+path="res://.godot/imported/horned_rise.png-d309f3f5a5d3e43679074a798fe58d65.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://game/player/sprites/ghost_land_sheet.png"
-dest_files=["res://.godot/imported/ghost_land_sheet.png-d8b1369d010678afc93da60eb35a91d7.ctex"]
+source_file="res://game/player/sprites/horned_rise.png"
+dest_files=["res://.godot/imported/horned_rise.png-d309f3f5a5d3e43679074a798fe58d65.ctex"]
 
 [params]
 

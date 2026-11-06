@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://by1n8rkigibfq"
-path="res://.godot/imported/ghost_jump_start_sheet.png-05a7e7a7e1f490ecb2b6b27eea9bf2d3.ctex"
+uid="uid://f14vd52irv81"
+path="res://.godot/imported/horned_fall.png-70b43dd6c710cf7cbb1d2ea1a648c713.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://game/player/sprites/ghost_jump_start_sheet.png"
-dest_files=["res://.godot/imported/ghost_jump_start_sheet.png-05a7e7a7e1f490ecb2b6b27eea9bf2d3.ctex"]
+source_file="res://game/player/sprites/horned_fall.png"
+dest_files=["res://.godot/imported/horned_fall.png-70b43dd6c710cf7cbb1d2ea1a648c713.ctex"]
 
 [params]
 

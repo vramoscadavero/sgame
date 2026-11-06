@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://py0kegjnx52t"
-path="res://.godot/imported/ghost_move_sheet.png-d4bf4b906feb4358341b2ada65128f0f.ctex"
+uid="uid://bmrbou3mdbqtm"
+path="res://.godot/imported/horned_move.png-035a5824f58f15872f6af10c003bb9f1.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://game/player/sprites/ghost_move_sheet.png"
-dest_files=["res://.godot/imported/ghost_move_sheet.png-d4bf4b906feb4358341b2ada65128f0f.ctex"]
+source_file="res://game/player/sprites/horned_move.png"
+dest_files=["res://.godot/imported/horned_move.png-035a5824f58f15872f6af10c003bb9f1.ctex"]
 
 [params]
 
