@@ -10,8 +10,7 @@ public partial class Player : CharacterBody2D
 	private static readonly StringName MoveLeft = "move_left";
 	private static readonly StringName MoveRight = "move_right";
 	private static readonly StringName Jump = "jump";
-	private static readonly StringName DashRight = "dash_right";
-	private static readonly StringName DashLeft = "dash_left";
+	private static readonly StringName Dash = "dash";
 
 	// Animation names, defined in the SpriteFrames of the AnimatedSprite2D.
 	private static readonly StringName AnimIdle = "idle";
@@ -96,23 +95,13 @@ public partial class Player : CharacterBody2D
 			velocity.Y *= JumpCutMultiplier;
 		}
 
-		if (Input.IsActionJustPressed(DashRight)
+		if (Input.IsActionJustPressed(Dash)
 			&& IsOnFloor()
 			&& _dashDurationTimer <= 0
-			&& _dashCooldownTimer <= 0)
+			&& _dashCooldownTimer <= 0
+			&& direction != 0)
 		{
-			velocity.X = Speed * DashSpeedMultiplier;
-			_sprite.Play(AnimDash);
-			_dashDurationTimer = DashDuration;
-			_dashCooldownTimer = DashCooldown;
-		}
-
-		if (Input.IsActionJustPressed(DashLeft)
-			&& IsOnFloor()
-			&& _dashDurationTimer <= 0
-			&& _dashCooldownTimer <= 0)
-		{
-			velocity.X = -Speed * DashSpeedMultiplier;
+			velocity.X = direction * Speed * DashSpeedMultiplier;
 			_sprite.Play(AnimDash);
 			_dashDurationTimer = DashDuration;
 			_dashCooldownTimer = DashCooldown;
