@@ -11,8 +11,8 @@ sgame/
 ├── docs/              Documentation, roadmap, decisions
 ├── addons/            Third-party or custom Godot plugins (created when the first one is added)
 └── game/              Everything the game loads at runtime
-    ├── main/          Entry scene (main.tscn + Main.cs), loaded when the game starts
-    └── assets/        Shared files that no single feature owns (project icon, fonts, shared sounds)
+	├── main/          Entry scene (main.tscn + Main.cs), loaded when the game starts
+	└── assets/        Shared files that no single feature owns (project icon, fonts, shared sounds)
 ```
 
 Folders for new features are created when the feature is started, not before.
