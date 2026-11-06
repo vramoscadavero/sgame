@@ -25,13 +25,13 @@ public partial class Player : CharacterBody2D
 	[Export] public float Speed = 430f;
 
 	/// <summary>Duration of a dash, in seconds.</summary>
-	[Export] public float DashDuration = 0.2f;
+	[Export] public float DashDuration = 0.25f;
 
 	/// <summary>Time after a dash before you can dash again, in seconds.</summary>
 	[Export] public float DashCooldown = 1f;
 
 	/// <summary>Horizontal dash speed is the normal speed multiplied by this.</summary>
-	[Export] public float DashSpeedMultiplier = 10f;
+	[Export] public float DashSpeedMultiplier = 3.5f;
 
 	/// <summary>Upward speed at the start of a jump. Negative because Y points down in Godot.</summary>
 	[Export] public float JumpVelocity = -870f;
