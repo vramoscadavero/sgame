@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://gicohxvd1ioa"
-path="res://.godot/imported/horned_land.png-b4624c057e7eed6bd92058a7967a60cf.ctex"
+uid="uid://clurnhd0qrg5k"
+path="res://.godot/imported/horned_smooth_land.png-405007287434a83e08fe71301c19ca67.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://game/player/sprites/horned_land.png"
-dest_files=["res://.godot/imported/horned_land.png-b4624c057e7eed6bd92058a7967a60cf.ctex"]
+source_file="res://game/player/sprites/horned_smooth_land.png"
+dest_files=["res://.godot/imported/horned_smooth_land.png-405007287434a83e08fe71301c19ca67.ctex"]
 
 [params]
 

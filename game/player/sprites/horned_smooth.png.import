@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://caubjnmhb5j0g"
-path="res://.godot/imported/horned_idle.png-31462cf70393a38e00261b16ee07463b.ctex"
+uid="uid://dxf06oyj2vnv4"
+path="res://.godot/imported/horned_smooth.png-4b3454a42ae124423a29198036fc19e2.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://game/player/sprites/horned_idle.png"
-dest_files=["res://.godot/imported/horned_idle.png-31462cf70393a38e00261b16ee07463b.ctex"]
+source_file="res://game/player/sprites/horned_smooth.png"
+dest_files=["res://.godot/imported/horned_smooth.png-4b3454a42ae124423a29198036fc19e2.ctex"]
 
 [params]
 

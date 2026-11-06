@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bmrbou3mdbqtm"
-path="res://.godot/imported/horned_move.png-035a5824f58f15872f6af10c003bb9f1.ctex"
+uid="uid://ddj52nav6jdb3"
+path="res://.godot/imported/horned_smooth_move.png-0cb3e5a267bdfd66692d3cfc9b765a24.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://game/player/sprites/horned_move.png"
-dest_files=["res://.godot/imported/horned_move.png-035a5824f58f15872f6af10c003bb9f1.ctex"]
+source_file="res://game/player/sprites/horned_smooth_move.png"
+dest_files=["res://.godot/imported/horned_smooth_move.png-0cb3e5a267bdfd66692d3cfc9b765a24.ctex"]
 
 [params]
 

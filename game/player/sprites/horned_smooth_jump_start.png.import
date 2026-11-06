@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://f14vd52irv81"
-path="res://.godot/imported/horned_fall.png-70b43dd6c710cf7cbb1d2ea1a648c713.ctex"
+uid="uid://bcjt6wl0u4if8"
+path="res://.godot/imported/horned_smooth_jump_start.png-7b1f37c815b183d33c69313bd277c977.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://game/player/sprites/horned_fall.png"
-dest_files=["res://.godot/imported/horned_fall.png-70b43dd6c710cf7cbb1d2ea1a648c713.ctex"]
+source_file="res://game/player/sprites/horned_smooth_jump_start.png"
+dest_files=["res://.godot/imported/horned_smooth_jump_start.png-7b1f37c815b183d33c69313bd277c977.ctex"]
 
 [params]
 

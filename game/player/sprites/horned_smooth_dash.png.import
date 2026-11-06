@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dqn0tpaecgdc"
-path="res://.godot/imported/horned_rise.png-d309f3f5a5d3e43679074a798fe58d65.ctex"
+uid="uid://s5s1b7lq6st4"
+path="res://.godot/imported/horned_smooth_dash.png-f60ec1bf6230e69704a68e0ada5cad24.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://game/player/sprites/horned_rise.png"
-dest_files=["res://.godot/imported/horned_rise.png-d309f3f5a5d3e43679074a798fe58d65.ctex"]
+source_file="res://game/player/sprites/horned_smooth_dash.png"
+dest_files=["res://.godot/imported/horned_smooth_dash.png-f60ec1bf6230e69704a68e0ada5cad24.ctex"]
 
 [params]
 
