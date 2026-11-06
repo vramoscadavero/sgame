@@ -1,9 +1,14 @@
 [gd_scene format=3 uid="uid://b8317m2w0q3i8"]
 
 [ext_resource type="Script" uid="uid://cq5xxvq0hq71b" path="res://game/main/Main.cs" id="1_main"]
-[ext_resource type="PackedScene" uid="uid://d5aaca2v66ve" path="res://game/levels/white_room/white_room.tscn" id="2_room"]
+[ext_resource type="PackedScene" path="res://game/levels/white_room/white_room.tscn" id="2_room"]
+[ext_resource type="Script" uid="uid://bokr6qf5kocow" path="res://game/system/dialogue/TestDialogue.cs" id="3_yil3p"]
 
 [node name="Main" type="Node2D" unique_id=1382196088]
 script = ExtResource("1_main")
 
 [node name="WhiteRoom" parent="." unique_id=2047970784 instance=ExtResource("2_room")]
+position = Vector2(-5, 10)
+
+[node name="TestDialogue" type="Node" parent="WhiteRoom" unique_id=2024671721]
+script = ExtResource("3_yil3p")

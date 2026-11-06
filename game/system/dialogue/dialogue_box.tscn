@@ -1,0 +1,65 @@
+[gd_scene format=3 uid="uid://dq4q4ruh06rhs"]
+
+[ext_resource type="Script" uid="uid://ci4nmdjpvc3q2" path="res://game/system/dialogue/DialogueBox.cs" id="1_215wo"]
+
+[node name="DialogueBox" type="CanvasLayer" unique_id=599447139]
+process_mode = 3
+layer = 10
+script = ExtResource("1_215wo")
+
+[node name="Root" type="Control" parent="." unique_id=1228561999]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+
+[node name="Panel" type="PanelContainer" parent="Root" unique_id=205281792]
+custom_minimum_size = Vector2(0, 180)
+layout_mode = 1
+anchors_preset = 12
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 40.0
+offset_top = -204.0
+offset_right = -40.0
+offset_bottom = -24.0
+grow_horizontal = 2
+grow_vertical = 0
+
+[node name="Margin" type="MarginContainer" parent="Root/Panel" unique_id=90708812]
+layout_mode = 2
+theme_override_constants/margin_left = 16
+theme_override_constants/margin_top = 16
+theme_override_constants/margin_right = 16
+theme_override_constants/margin_bottom = 16
+
+[node name="VBox" type="VBoxContainer" parent="Root/Panel/Margin" unique_id=788209697]
+layout_mode = 2
+theme_override_constants/separation = 8
+
+[node name="NameLabel" type="Label" parent="Root/Panel/Margin/VBox" unique_id=794517458]
+unique_name_in_owner = true
+layout_mode = 2
+
+[node name="TextLabel" type="RichTextLabel" parent="Root/Panel/Margin/VBox" unique_id=848810333]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(0, 80)
+layout_mode = 2
+size_flags_vertical = 3
+bbcode_enabled = true
+scroll_active = false
+
+[node name="ChoicesContainer" type="VBoxContainer" parent="Root/Panel/Margin/VBox" unique_id=571334929]
+unique_name_in_owner = true
+layout_mode = 2
+
+[node name="ContinueIndicator" type="Label" parent="Root/Panel/Margin/VBox" unique_id=658271580]
+unique_name_in_owner = true
+visible = false
+layout_mode = 2
+text = ">"
+horizontal_alignment = 2

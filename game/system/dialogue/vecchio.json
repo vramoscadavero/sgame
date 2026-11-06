@@ -1,0 +1,19 @@
+{
+  "start": {
+    "speaker": "Vecchio",
+    "text": "Ehi, straniero! Cerchi qualcosa?",
+    "choices": [
+      { "text": "Chi sei?", "next": "who" },
+      { "text": "Niente, addio.", "next": "bye" }
+    ]
+  },
+  "who": {
+    "speaker": "Vecchio",
+    "text": "Sono il [color=orange]guardiano del faro[/color].",
+    "next": "start"
+  },
+  "bye": {
+    "speaker": "Vecchio",
+    "text": "Buon viaggio."
+  }
+}
